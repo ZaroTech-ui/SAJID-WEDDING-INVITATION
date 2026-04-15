@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #FFFEF7;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.arabic-text {
+  font-family: 'Amiri', serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFEF7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #064E3B, #D4AF37);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #D4AF37, #064E3B);
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+/* Islamic Pattern Background */
+.islamic-pattern {
+  background-image: 
+    repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(212, 175, 55, 0.03) 35px, rgba(212, 175, 55, 0.03) 70px),
+    repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(6, 78, 59, 0.03) 35px, rgba(6, 78, 59, 0.03) 70px);
+}
+
+/* Gold shimmer animation */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.shimmer {
+  animation: shimmer 2s infinite;
+  background: linear-gradient(to right, #FFFEF7 4%, #D4AF37 25%, #FFFEF7 36%);
+  background-size: 1000px 100%;
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Glow effect */
+.glow {
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+}
+
+.glow-hover:hover {
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.8);
+  transition: box-shadow 0.3s ease;
+}

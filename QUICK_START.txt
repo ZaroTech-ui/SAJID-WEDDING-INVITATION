@@ -1,0 +1,60 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║     SAJID ❤️ RAZIYA - LUXURY WEDDING WEBSITE                ║
+║                                                              ║
+║     Quick Start Guide                                        ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+🚀 GET STARTED IN 3 STEPS:
+
+1️⃣  INSTALL DEPENDENCIES
+   Open terminal in SAJIDH folder and run:
+   
+   npm install
+
+2️⃣  START THE WEBSITE
+   
+   npm start
+   
+   Website will open at: http://localhost:3000
+
+3️⃣  CUSTOMIZE (Optional)
+   - Add music: public/music/wedding-music.mp3
+   - Add photos: Update src/components/Gallery.js
+   - Update contacts: Edit src/components/Footer.js
+   - Update maps: Edit src/components/Location.js
+
+📖 For detailed instructions, see: SETUP_INSTRUCTIONS.md
+
+🌐 DEPLOY TO WEB:
+   
+   npm run build
+   
+   Then upload 'build' folder to:
+   - Netlify (drag & drop)
+   - Vercel
+   - GitHub Pages
+   - Any web hosting
+
+✨ FEATURES INCLUDED:
+   ✅ Fullscreen hero with animations
+   ✅ Background music toggle
+   ✅ Luxury invitation card
+   ✅ Live countdown timer
+   ✅ Google Maps integration
+   ✅ Photo gallery with lightbox
+   ✅ Islamic design elements
+   ✅ Fully responsive
+   ✅ Premium UI/UX
+
+💚 Wedding Details:
+   Nikkah: 7th May 2026, 10:30 AM, Guntur
+   Reception: 10th May 2026, 7:30 PM, Martur
+
+🎉 Congratulations on your wedding!
+   May Allah bless your union with love and happiness.
+
+───────────────────────────────────────────────────────────────
+Need help? Check README.md or SETUP_INSTRUCTIONS.md
+───────────────────────────────────────────────────────────────
