@@ -9,7 +9,7 @@ const MusicToggle = () => {
 
   useEffect(() => {
     // Initialize audio
-    audioRef.current = new Audio('/music/Kudmayi - Film Version [128 Kbps]-(SongsPk.com.se).mp3');
+    audioRef.current = new Audio('/music/Tu Hi To Jannat Meri Instrumental.m4r');
     audioRef.current.loop = true;
     audioRef.current.volume = 0;
 
