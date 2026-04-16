@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { HiPhone, HiHeart, HiMail } from 'react-icons/hi';
+import { HiHeart, HiMail } from 'react-icons/hi';
 import { FaWhatsapp, FaCode } from 'react-icons/fa';
 
 const Footer = () => {
